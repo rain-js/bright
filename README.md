@@ -1,4 +1,4 @@
-# wind
+# bright
 
 ## Project setup
 ```

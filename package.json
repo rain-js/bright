@@ -1,11 +1,12 @@
 {
-  "name": "wind",
+  "name": "bright",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name bright-ui --dest lib src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -27,8 +28,7 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
-    ],
+      "eslint:recommended"    ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
