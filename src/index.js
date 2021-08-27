@@ -1,7 +1,9 @@
 import Button from './components/button'
+import Icon from './components/icon'
 
 const COMPONENTS = [
-  Button
+  Button,
+  Icon
 ]
 
 function install (Vue, option = {}) {
@@ -13,5 +15,6 @@ function install (Vue, option = {}) {
 
 export default {
   install,
-  Button
+  Button,
+  Icon
 }
